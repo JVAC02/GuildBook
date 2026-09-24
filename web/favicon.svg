@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GuildBook">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#193c64"/><stop offset="1" stop-color="#0d786e"/></linearGradient><linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#d6f6ef"/></linearGradient></defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#bg)"/>
+  <path d="M12.5 18.5c6.9-3.1 13.4-2.4 19.5 1.8 6.1-4.2 12.6-4.9 19.5-1.8v28.4c-7.5-3.1-14.1-2.3-19.5 1.4-5.4-3.7-12-4.5-19.5-1.4V18.5Z" fill="url(#page)"/>
+  <path d="M32 20.3v28" stroke="#278d83" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M39.8 26v13.5M33 32.75h13.5" stroke="#0d736d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M17.3 23.6c3.8-1.1 7-.6 10 1.1m-10 5.2c3.8-1.1 7-.6 10 1.1m-10 5.3c3.8-1.1 7-.6 10 1.1" fill="none" stroke="#80b7b8" stroke-width="2" stroke-linecap="round"/>
+</svg>

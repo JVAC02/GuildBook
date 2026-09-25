@@ -13,7 +13,7 @@ test('arquivo único não depende de recursos externos', () => {
 });
 
 test('arquivo único inclui a versão clínica revisada', () => {
-  assert.match(standalone, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
+  assert.match(standalone, /guildbook-version" content="Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias"/);
   assert.doesNotMatch(standalone, /Dipirona 500 mg[^\n]{0,500}por até 3 dias/);
   assert.doesNotMatch(standalone, /Paracetamol 500 mg[^\n]{0,500}por até 3 dias/);
 });
@@ -23,13 +23,13 @@ function standalonePrescriptionApi() {
   const end = standalone.indexOf('const FILTERS=');
   const context = {};
   vm.createContext(context);
-  vm.runInContext(`${standalone.slice(start, end)}\nglobalThis.api={MEDICINES,RX_META,RX_PRESENTATIONS,PEDIATRIC_RX_META,formatPrescription,normalizeActiveName};`, context);
+  vm.runInContext(`${standalone.slice(start, end)}\nglobalThis.api={MEDICINES,PATHOLOGIES,RX_META,RX_PRESENTATIONS,PEDIATRIC_RX_META,formatPrescription,normalizeActiveName};`, context);
   return context.api;
 }
 
 test('standalone valida em loop o receituário de 100% das medicações', () => {
   const { MEDICINES, RX_META, formatPrescription } = standalonePrescriptionApi();
-  assert.ok(MEDICINES.length >= 50);
+  assert.ok(MEDICINES.length >= 322);
   assert.equal(Object.keys(RX_META).length, MEDICINES.length);
   for (const medicine of MEDICINES) {
     const prescription = formatPrescription(medicine, medicine.adult.rx);
@@ -38,17 +38,17 @@ test('standalone valida em loop o receituário de 100% das medicações', () => 
   }
 });
 
-test('standalone preserva versão 6.2 e atualização visual Adulto/Pediatria', () => {
-  assert.match(standalone, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
+test('standalone preserva versão 6.3 e atualização visual Adulto/Pediatria', () => {
+  assert.match(standalone, /guildbook-version" content="Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias"/);
   assert.match(standalone, /rx-mode-label/);
   assert.match(standalone, /Receituário pronto · \$\{ped\?'Pediatria':'Adulto'\}/);
 });
 
 
-test('standalone contém 170+ princípios ativos normalizados sem duplicatas', () => {
+test('standalone contém 322 princípios ativos normalizados sem duplicatas', () => {
   const { MEDICINES, normalizeActiveName } = standalonePrescriptionApi();
   const names = MEDICINES.map(medicine => normalizeActiveName(medicine.name));
-  assert.ok(MEDICINES.length >= 170, `total encontrado: ${MEDICINES.length}`);
+  assert.ok(MEDICINES.length >= 322, `total encontrado: ${MEDICINES.length}`);
   assert.equal(new Set(names).size, names.length);
 });
 
@@ -66,4 +66,18 @@ test('standalone valida adulto, pediatria e todas as apresentações', () => {
       assert.notEqual(option.code, 'SO');
     }
   }
+});
+
+
+test('standalone expõe patologias completas e seus vínculos', () => {
+  const { MEDICINES, PATHOLOGIES } = standalonePrescriptionApi();
+  const ids = new Set(MEDICINES.map(m => m.id));
+  assert.ok(PATHOLOGIES.length >= 45);
+  for (const p of PATHOLOGIES) {
+    assert.ok(p.basic && p.exams && p.treatment && p.followUp, p.id);
+    for (const id of p.treatment.medicationIds) assert.ok(ids.has(id), `${p.id}/${id}`);
+  }
+  assert.match(standalone, /global-weight/);
+  assert.match(standalone, /Copiar Prescrição Completa da Patologia/);
+  assert.match(standalone, /Copiar Conduta p\/ Prontuário \(SOAP\)/);
 });

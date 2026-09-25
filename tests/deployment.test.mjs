@@ -12,6 +12,8 @@ test('GitHub Pages publica a interface web nas branches usadas pelo projeto', ()
   assert.match(workflow, /path: web/);
   assert.match(workflow, /SITE_URL: \$\{\{ steps\.deployment\.outputs\.page_url \}\}/);
   assert.match(workflow, /guildbook-version/);
+  assert.match(workflow, /Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias/);
+  assert.match(site, /guildbook-version\" content=\"Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias/);
   assert.match(workflow, /Dipirona 500 mg/);
   assert.match(workflow, /Paracetamol 500 mg/);
 });

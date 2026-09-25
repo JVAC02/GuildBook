@@ -37,14 +37,14 @@ test('durações vinculadas a tratamentos definidos permanecem intactas', () => 
 test('artefato publicado contém as correções de dipirona e paracetamol', () => {
   assert.doesNotMatch(builtServer, /Dipirona 500 mg[^\n]{0,500}por até 3 dias/);
   assert.doesNotMatch(builtServer, /Paracetamol 500 mg[^\n]{0,500}por até 3 dias/);
-  assert.match(builtServer, /Versão 6\.2 · receituários e banco RENAME expandido/);
+  assert.match(builtServer, /Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias/);
 });
 
 function loadPrescriptionApi(html) {
   const start = html.indexOf("'use strict';");
   const end = html.indexOf('const FILTERS=');
   assert.ok(start >= 0 && end > start, 'bloco clínico deve ser localizável');
-  const script = `${html.slice(start, end)}\nglobalThis.api={MEDICINES,RX_META,RX_PRESENTATIONS,PEDIATRIC_RX_META,formatPrescription,normalizeActiveName};`;
+  const script = `${html.slice(start, end)}\nglobalThis.api={MEDICINES,PATHOLOGIES,RX_META,RX_PRESENTATIONS,PEDIATRIC_RX_META,formatPrescription,normalizeActiveName};`;
   const context = {};
   vm.createContext(context);
   vm.runInContext(script, context);
@@ -56,7 +56,7 @@ const FORBIDDEN_RX = /Máximo:|Dose máxima:|Reavaliar se|somente enquanto houve
 
 test('todas as medicações geram receituário brasileiro estruturado individualmente', () => {
   const { MEDICINES, RX_META, formatPrescription } = loadPrescriptionApi(source);
-  assert.ok(MEDICINES.length >= 50);
+  assert.ok(MEDICINES.length >= 322);
   assert.equal(Object.keys(RX_META).length, MEDICINES.length);
   for (const medicine of MEDICINES) {
     const prescription = formatPrescription(medicine, medicine.adult.rx);
@@ -65,10 +65,10 @@ test('todas as medicações geram receituário brasileiro estruturado individual
   }
 });
 
-test('versão 6.2 e alternância do Prontuário Pronto estão ligadas ao estado ativo', () => {
-  assert.match(source, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
-  assert.match(fs.readFileSync('worker/index.js', 'utf8'), /GUILDBOOK_VERSION='6\.2'/);
-  assert.equal(JSON.parse(fs.readFileSync('package.json', 'utf8')).version, '6.2.0');
+test('versão 6.3 e alternância do Prontuário Pronto estão ligadas ao estado ativo', () => {
+  assert.match(source, /guildbook-version" content="Versão 6\.3 · auditoria clínica, 322 medicamentos RENAME\/MS e Patologias"/);
+  assert.match(fs.readFileSync('worker/index.js', 'utf8'), /GUILDBOOK_VERSION='6\.3'/);
+  assert.equal(JSON.parse(fs.readFileSync('package.json', 'utf8')).version, '6.3.0');
   assert.match(source, /rx-mode-label/);
   assert.match(source, /textContent=`Receituário pronto · \$\{ped\?'Pediatria':'Adulto'\}`/);
   assert.match(source, /formatPrescription\(m,raw,ped\)/);
@@ -94,10 +94,10 @@ test('seletores RENAME oferecem receitas completas e alteráveis nas apresentaç
 });
 
 
-test('expansão RENAME possui pelo menos 170 princípios ativos normalizados e sem duplicatas', () => {
+test('expansão RENAME possui pelo menos 322 princípios ativos normalizados e sem duplicatas', () => {
   const { MEDICINES, normalizeActiveName } = loadPrescriptionApi(source);
   const names = MEDICINES.map(medicine => normalizeActiveName(medicine.name));
-  assert.ok(MEDICINES.length >= 170, `total encontrado: ${MEDICINES.length}`);
+  assert.ok(MEDICINES.length >= 322, `total encontrado: ${MEDICINES.length}`);
   assert.equal(new Set(names).size, names.length, 'não pode haver princípio ativo normalizado repetido');
 });
 
@@ -116,4 +116,19 @@ test('adulto, pediatria e todas as apresentações possuem receituário estrito'
       assert.notEqual(option.code, 'SO', `${medicine.id}: a sigla SO é proibida`);
     }
   }
+});
+
+
+test('v6.3 oferece 49 patologias completas e integridade referencial', () => {
+  const { MEDICINES, PATHOLOGIES } = loadPrescriptionApi(source);
+  const ids = new Set(MEDICINES.map(m => m.id));
+  assert.ok(PATHOLOGIES.length >= 45);
+  for (const pathology of PATHOLOGIES) {
+    assert.ok(pathology.basic?.definition && pathology.exams?.initial?.length && pathology.treatment?.summary && pathology.followUp?.redFlags?.length, pathology.id);
+    for (const id of pathology.treatment.medicationIds) assert.ok(ids.has(id), `${pathology.id}/${id}`);
+  }
+});
+
+test('UI contém peso global, escores, navegação bidirecional e cópias clínicas', () => {
+  for (const hook of ['global-weight','pathologies-page','pathology-search','pathology-specialty','data-medication-link','data-pathology-link','data-copy-pathology="prescription"','data-copy-pathology="soap"','CURB-65','Centor/McIsaac','CHA2DS2-VA']) assert.ok(source.includes(hook), hook);
 });

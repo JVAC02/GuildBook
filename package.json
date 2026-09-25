@@ -12,5 +12,6 @@
   "devDependencies": {
     "drizzle-kit": "0.31.11",
     "drizzle-orm": "0.45.3"
-  }
+  },
+  "version": "6.1.0"
 }

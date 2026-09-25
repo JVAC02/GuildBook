@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import vm from 'node:vm';
 
 const source = fs.readFileSync('web/index.html', 'utf8');
 const builtServer = fs.readFileSync('dist/server/index.js', 'utf8');
@@ -36,5 +37,39 @@ test('durações vinculadas a tratamentos definidos permanecem intactas', () => 
 test('artefato publicado contém as correções de dipirona e paracetamol', () => {
   assert.doesNotMatch(builtServer, /Dipirona 500 mg[^\n]{0,500}por até 3 dias/);
   assert.doesNotMatch(builtServer, /Paracetamol 500 mg[^\n]{0,500}por até 3 dias/);
-  assert.match(builtServer, /Versão 6 · prescrições sintomáticas revisadas/);
+  assert.match(builtServer, /Versão 6\.1 · prescrições padronizadas/);
+});
+
+function loadPrescriptionApi(html) {
+  const start = html.indexOf("'use strict';");
+  const end = html.indexOf('const FILTERS=');
+  assert.ok(start >= 0 && end > start, 'bloco clínico deve ser localizável');
+  const script = `${html.slice(start, end)}\nglobalThis.api={MEDICINES,RX_META,formatPrescription};`;
+  const context = {};
+  vm.createContext(context);
+  vm.runInContext(script, context);
+  return context.api;
+}
+
+const VALID_RX = /^USO (?:ORAL|INTRAMUSCULAR \(IM\)|ENDOVENOSO \(EV\)|SUBCUTÂNEO \(SC\)|SUBLINGUAL \(SL\)|TÓPICO|INALATÓRIO|INTRANASAL|OFTÁLMICO|OTOLÓGICO|RETAL|VAGINAL)\n\n1\) .+ \(.+\) ---------------------------- \d+ (?:cx|fr|tb|amp|cp)\n {3}(?:Tomar|Aplicar|Injetar|Inalar|Pingar|Dissolver sob a língua)\b/;
+const FORBIDDEN_RX = /Máximo:|Dose máxima:|Reavaliar se|somente enquanto houver sintomas|undefined|null|\[object Object\]|por via (?:oral|intravenosa|endovenosa|intramuscular|inalatória|tópica)/i;
+
+test('todas as medicações geram receituário brasileiro estruturado individualmente', () => {
+  const { MEDICINES, RX_META, formatPrescription } = loadPrescriptionApi(source);
+  assert.ok(MEDICINES.length >= 50);
+  assert.equal(Object.keys(RX_META).length, MEDICINES.length);
+  for (const medicine of MEDICINES) {
+    const prescription = formatPrescription(medicine, medicine.adult.rx);
+    assert.match(prescription, VALID_RX, medicine.id);
+    assert.doesNotMatch(prescription, FORBIDDEN_RX, medicine.id);
+  }
+});
+
+test('versão 6.1 e alternância do Prontuário Pronto estão ligadas ao estado ativo', () => {
+  assert.match(source, /guildbook-version" content="6\.1"/);
+  assert.match(fs.readFileSync('worker/index.js', 'utf8'), /GUILDBOOK_VERSION='6\.1'/);
+  assert.equal(JSON.parse(fs.readFileSync('package.json', 'utf8')).version, '6.1.0');
+  assert.match(source, /rx-mode-label/);
+  assert.match(source, /textContent=`Receituário pronto · \$\{ped\?'Pediatria':'Adulto'\}`/);
+  assert.match(source, /formatPrescription\(m,raw,ped\)/);
 });

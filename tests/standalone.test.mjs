@@ -13,7 +13,7 @@ test('arquivo único não depende de recursos externos', () => {
 });
 
 test('arquivo único inclui a versão clínica revisada', () => {
-  assert.match(standalone, /guildbook-version" content="6\.1"/);
+  assert.match(standalone, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
   assert.doesNotMatch(standalone, /Dipirona 500 mg[^\n]{0,500}por até 3 dias/);
   assert.doesNotMatch(standalone, /Paracetamol 500 mg[^\n]{0,500}por até 3 dias/);
 });
@@ -38,8 +38,8 @@ test('standalone valida em loop o receituário de 100% das medicações', () => 
   }
 });
 
-test('standalone preserva versão 6.1 e atualização visual Adulto/Pediatria', () => {
-  assert.match(standalone, /guildbook-version" content="6\.1"/);
+test('standalone preserva versão 6.2 e atualização visual Adulto/Pediatria', () => {
+  assert.match(standalone, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
   assert.match(standalone, /rx-mode-label/);
   assert.match(standalone, /Receituário pronto · \$\{ped\?'Pediatria':'Adulto'\}/);
 });

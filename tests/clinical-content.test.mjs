@@ -37,14 +37,14 @@ test('durações vinculadas a tratamentos definidos permanecem intactas', () => 
 test('artefato publicado contém as correções de dipirona e paracetamol', () => {
   assert.doesNotMatch(builtServer, /Dipirona 500 mg[^\n]{0,500}por até 3 dias/);
   assert.doesNotMatch(builtServer, /Paracetamol 500 mg[^\n]{0,500}por até 3 dias/);
-  assert.match(builtServer, /Versão 6\.1 · prescrições padronizadas/);
+  assert.match(builtServer, /Versão 6\.2 · receituários e banco RENAME expandido/);
 });
 
 function loadPrescriptionApi(html) {
   const start = html.indexOf("'use strict';");
   const end = html.indexOf('const FILTERS=');
   assert.ok(start >= 0 && end > start, 'bloco clínico deve ser localizável');
-  const script = `${html.slice(start, end)}\nglobalThis.api={MEDICINES,RX_META,formatPrescription};`;
+  const script = `${html.slice(start, end)}\nglobalThis.api={MEDICINES,RX_META,RX_PRESENTATIONS,PEDIATRIC_RX_META,formatPrescription,normalizeActiveName};`;
   const context = {};
   vm.createContext(context);
   vm.runInContext(script, context);
@@ -65,11 +65,55 @@ test('todas as medicações geram receituário brasileiro estruturado individual
   }
 });
 
-test('versão 6.1 e alternância do Prontuário Pronto estão ligadas ao estado ativo', () => {
-  assert.match(source, /guildbook-version" content="6\.1"/);
-  assert.match(fs.readFileSync('worker/index.js', 'utf8'), /GUILDBOOK_VERSION='6\.1'/);
-  assert.equal(JSON.parse(fs.readFileSync('package.json', 'utf8')).version, '6.1.0');
+test('versão 6.2 e alternância do Prontuário Pronto estão ligadas ao estado ativo', () => {
+  assert.match(source, /guildbook-version" content="Versão 6\.2 · receituários e banco RENAME expandido"/);
+  assert.match(fs.readFileSync('worker/index.js', 'utf8'), /GUILDBOOK_VERSION='6\.2'/);
+  assert.equal(JSON.parse(fs.readFileSync('package.json', 'utf8')).version, '6.2.0');
   assert.match(source, /rx-mode-label/);
   assert.match(source, /textContent=`Receituário pronto · \$\{ped\?'Pediatria':'Adulto'\}`/);
   assert.match(source, /formatPrescription\(m,raw,ped\)/);
+});
+
+
+test('seletores RENAME oferecem receitas completas e alteráveis nas apresentações solicitadas', () => {
+  const { RX_PRESENTATIONS } = loadPrescriptionApi(source);
+  const expected = {
+    dipirona: ['Cp', 'Gts', 'Susp/Sol', 'Amp'], paracetamol: ['Cp', 'Gts'],
+    ondansetrona: ['Cp', 'Amp'], omeprazol: ['Cp', 'Amp'], furosemida: ['Cp', 'Amp'],
+    dexametasona: ['Cp', 'Amp', 'Tb'], metoclopramida: ['Cp', 'Gts', 'Amp']
+  };
+  for (const [id, codes] of Object.entries(expected)) {
+    assert.deepEqual(Array.from(RX_PRESENTATIONS[id], option => option.code), codes, id);
+    for (const option of RX_PRESENTATIONS[id]) {
+      const prescription = `${option.route}\n\n1) ${option.presentation} ---------------------------- ${option.quantity} ${option.unit}\n   ${option.instruction}`;
+      assert.match(prescription, VALID_RX, `${id}/${option.code}`);
+    }
+  }
+  assert.match(source, /style="white-space: pre-line"/);
+  assert.match(source, /closest\('\.presentation'\)/);
+});
+
+
+test('expansão RENAME possui pelo menos 170 princípios ativos normalizados e sem duplicatas', () => {
+  const { MEDICINES, normalizeActiveName } = loadPrescriptionApi(source);
+  const names = MEDICINES.map(medicine => normalizeActiveName(medicine.name));
+  assert.ok(MEDICINES.length >= 170, `total encontrado: ${MEDICINES.length}`);
+  assert.equal(new Set(names).size, names.length, 'não pode haver princípio ativo normalizado repetido');
+});
+
+test('adulto, pediatria e todas as apresentações possuem receituário estrito', () => {
+  const { MEDICINES, RX_PRESENTATIONS, formatPrescription } = loadPrescriptionApi(source);
+  for (const medicine of MEDICINES) {
+    for (const [mode, raw] of [['Adulto', medicine.adult.rx], ['Pediatria', medicine.pediatric.rx || medicine.adult.rx]]) {
+      const prescription = formatPrescription(medicine, raw, mode === 'Pediatria');
+      assert.match(prescription, VALID_RX, `${medicine.id}/${mode}`);
+      assert.doesNotMatch(prescription, FORBIDDEN_RX, `${medicine.id}/${mode}`);
+    }
+    for (const option of RX_PRESENTATIONS[medicine.id] || []) {
+      const prescription = `${option.route}\n\n1) ${option.presentation} ---------------------------- ${option.quantity} ${option.unit}\n   ${option.instruction}`;
+      assert.match(prescription, VALID_RX, `${medicine.id}/${option.code}`);
+      assert.doesNotMatch(prescription, FORBIDDEN_RX, `${medicine.id}/${option.code}`);
+      assert.notEqual(option.code, 'SO', `${medicine.id}: a sigla SO é proibida`);
+    }
+  }
 });

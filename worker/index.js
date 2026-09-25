@@ -1,4 +1,5 @@
 // ASSETS is embedded by scripts/build.mjs; no source files are served publicly.
+const GUILDBOOK_VERSION='6.1';
 const htmlEscape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeJson=x=>JSON.stringify(x).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');
 const privateHeaders={'cache-control':'private, no-store, max-age=0','vary':'Cookie','x-content-type-options':'nosniff','referrer-policy':'same-origin'};

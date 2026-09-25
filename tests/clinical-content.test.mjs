@@ -151,7 +151,7 @@ test('novos registros possuem apresentação, orientação e classificação reg
 });
 
 test('repositório não contém marcadores de conflito Git', () => {
-  for (const file of ['web/index.html','worker/index.js','dist/server/index.js','GuildBook-v6-Site.html']) {
+  for (const file of ['.github/workflows/deploy-pages.yml','GuildBook-v6-Site.html','dist/server/index.js','package.json','tests/clinical-content.test.mjs','tests/standalone.test.mjs','web/index.html','worker/index.js']) {
     assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /^(?:<<<<<<<|=======|>>>>>>>)/m, file);
   }
 });

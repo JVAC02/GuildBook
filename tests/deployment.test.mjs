@@ -6,7 +6,7 @@ const workflow = fs.readFileSync('.github/workflows/deploy-pages.yml', 'utf8');
 const site = fs.readFileSync('web/index.html', 'utf8');
 
 test('GitHub Pages publica a interface web nas branches usadas pelo projeto', () => {
-  assert.match(workflow, /branches: \[main, work\]/);
+  assert.match(workflow, /branches: \[main\]/);
   assert.match(workflow, /uses: actions\/upload-pages-artifact@v3/);
   assert.match(workflow, /uses: actions\/deploy-pages@v4/);
   assert.match(workflow, /path: web/);

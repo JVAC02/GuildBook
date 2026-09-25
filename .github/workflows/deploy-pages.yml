@@ -46,7 +46,7 @@ jobs:
             sleep 10
           done
           test -s pagina-publicada.html
-          grep -F '<meta name="guildbook-version" content="Versão 6.2 · receituários e banco RENAME expandido">' pagina-publicada.html
+          grep -F '<meta name="guildbook-version" content="Versão 6.3 · auditoria clínica, 322 medicamentos RENAME/MS e Patologias">' pagina-publicada.html
           grep -F 'somente enquanto houver sintomas. Máximo: 4 g/dia.' pagina-publicada.html
           grep -F 'somente enquanto houver sintomas. Não combinar com outros produtos' pagina-publicada.html
           if grep -F 'Dipirona 500 mg, comprimidos. Tomar 1 comprimido por via oral a cada 6 horas se dor ou febre, por até 3 dias.' pagina-publicada.html; then exit 1; fi

@@ -19,7 +19,8 @@ try{
   await card.locator('[data-presentation="K50-8h"]').click();
   await card.locator('[data-rx-field="indication"]').selectOption({index:1});await card.locator('[data-rx-field="adultAge"]').fill('35');await card.locator('[data-rx-field="days"]').fill('5');await card.locator('[data-rx-field="quantity"]').fill('14');await card.locator('[data-rx-field="screened"]').check();assert.equal(await card.locator('.copy').isDisabled(),true);
   await card.locator('[data-rx-field="quantity"]').fill('15');assert.equal(await card.locator('.copy').isEnabled(),true);
-  const preview=await card.locator('.rx').textContent();await card.locator('.copy').click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),preview);assert.match(preview,/Limite:.*150 mg\/dia/);assert.match(preview,/Cuidados:/);
+  // Windows native clipboard converts LF to CRLF. Preserve every other character and blank line.
+  const preview=await card.locator('.rx').textContent();await card.locator('.copy').click();const copied=await page.evaluate(()=>navigator.clipboard.readText());assert.equal(copied.replaceAll('\r\n','\n'),preview);assert.match(preview,/Limite:.*150 mg\/dia/);assert.match(preview,/Cuidados:/);
   await page.screenshot({path:`test-results/${variant}-${width}-rx.png`,fullPage:true});
   const geometry=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,header:getComputedStyle(document.querySelector('.internal-header')).position,bottom:document.querySelector('.copy').getBoundingClientRect().bottom,nav:document.querySelector('#mobile-nav').getBoundingClientRect().top}));assert.equal(geometry.overflow,false);assert.notEqual(geometry.header,'sticky');if(width<768)assert.ok(geometry.bottom<=geometry.nav,'copy button covered by navigation');
   await card.locator('[data-mode="pediatric"]').click();assert.equal(await card.locator('.copy').isDisabled(),true);await card.locator('[data-mode="adult"]').click();

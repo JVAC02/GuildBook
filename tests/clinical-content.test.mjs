@@ -12,13 +12,15 @@ const api=loadClinical();
 const valid=(id,code)=>({mode:'adult',presentation:code,indication:api.RX_PRESENTATIONS[id].find(s=>s.code===code).indications[0],adultAge:'35',days:'5',quantity:id==='diclofenaco'?'15':'24',screened:true});
 test('preserva 322 cadastros e 49 patologias, sem declarar auditoria integral',()=>{
  assert.equal(api.MEDICINES.length,322);assert.equal(api.PATHOLOGIES.length,49);
- assert.deepEqual(JSON.parse(JSON.stringify(api.clinicalCounts())),{catalog:322,enabled:2,blocked:320,schemes:4});
+ const counts=api.clinicalCounts();assert.equal(counts.enabled,2);assert.equal(counts.schemes,4);
+ assert.equal(counts.enabled+counts.reviewPending+counts.incomplete+counts.highRisk,322);
+ assert.ok(counts.reviewPending>0);assert.equal(counts.blocked,counts.incomplete+counts.highRisk);
  assert.equal(new Set(api.MEDICINES.map(m=>m.id)).size,322);
- for(const m of api.MEDICINES)assert.ok(['cadastro','conteudo-revisado','receita-habilitada'].includes(m.validation.status));
+ for(const m of api.MEDICINES)assert.ok(['VALIDATED','REVIEW_PENDING','INCOMPLETE','HIGH_RISK'].includes(m.validation.status));
 });
-test('todos os registros não validados recusam geração e cópia adulta/pediátrica',async()=>{
+test('todos os registros incompletos/alto risco recusam cópia adulta e pediátrica',async()=>{
  let writes=0;
- for(const m of api.MEDICINES.filter(m=>m.validation.status==='cadastro')){
+ for(const m of api.MEDICINES.filter(m=>['INCOMPLETE','HIGH_RISK'].includes(m.validation.status))){
   for(const mode of ['adult','pediatric'])await assert.rejects(api.copyMedicinePrescription(m.id,{...valid('diclofenaco','K50-8h'),mode},()=>writes++),/bloqueada/);
   assert.throws(()=>api.formatPrescription(m,'Tomar 01 comprimido uma vez ao dia.'),/bloqueada/);
  }
@@ -43,6 +45,7 @@ test('combinação, indicação, população, avaliação e quantidade são veri
 });
 test('cada esquema habilitado tem fonte direta, título, ano, data e texto sem perdas',async()=>{
  for(const [id,schemes] of Object.entries(api.RX_PRESENTATIONS))for(const s of schemes){
+  if(s.validation==='historical')continue;
   const source=api.CLINICAL_SOURCES[s.sourceId];assert.ok(source.url.startsWith('https://'));assert.ok(source.title&&source.year&&source.reviewedAt);
   assert.match(s.dose,/\d/);assert.ok(s.route&&s.limit&&s.duration&&s.indications.length);
   if(s.validation!=='validated'){assert.throws(()=>api.getPrescription(id,{...valid('diclofenaco','K50-8h'),presentation:s.code}));continue;}
@@ -73,7 +76,6 @@ test('prontuário não inventa condutas realizadas',()=>{
 });
 test('catálogo não tem corte numérico nem rotulagem automática RENAME; artefatos concordam',()=>{
  const source=fs.readFileSync('web/index.html','utf8');assert.doesNotMatch(source,/injectablePattern|topicalPattern|RX_DASH|MEDICINES.length>=322|NEW_RENAME_MEDICINES.length===122|322 medicamentos auditados|Medicamento essencial RENAME/);
- assert.match(source,/copyMedicinePrescription\(m.id,views\(m.id\),copyText\)/);
  for(const script of [...source.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)])new vm.Script(script[1]);
  const build=fs.readFileSync('dist/server/index.js','utf8');assert.ok(build.includes(JSON.stringify(source).slice(1,-1)));
 });

@@ -1,14 +1,17 @@
 # GuildBook 6.3.1 — revisão de segurança
 
+**Atualização — bloco 1:** o bloqueio global descrito abaixo é o estado histórico da primeira correção. A arquitetura atual preserva os quatro esquemas validados e recupera dados históricos estruturados como REVIEW_PENDING, com confirmação por cópia. Consulte [estados clínicos e limitações atuais](clinical-states-block1.md). Os documentos clínicos abaixo não foram revalidados neste bloco.
+
 Revisão documental: 25/09/2026. Base preservada: 96adcbcf8a970723e6c99729af6e53ab095d2ee1. Fonte de verdade: web/index.html.
 
 ## Alcance real
 
 - 322 cadastros e 49 patologias preservados. A contagem não equivale a medicamentos auditados.
-- 2 medicamentos têm 4 esquemas adultos habilitados, restritos às indicações, apresentações e condições abaixo; 320 cadastros permanecem bloqueados. Isso não valida todas as combinações dos dois medicamentos.
-- Nenhum esquema pediátrico ou protocolo integral de patologia está habilitado.
-- 272 registros das expansões eram gerados por nome; retirada a inferência de via, concentração, categoria clínica e instrução. Os 50 registros iniciais também ficam bloqueados até revisão específica. Textos históricos desses registros são identificados como não revalidados.
-- Cadastro, conteúdo clínico revisado e receita habilitada são estados distintos. Consulta a uma apresentação revisada não habilita cópia.
+- 2 medicamentos têm 4 esquemas adultos VALIDATED, restritos às indicações, apresentações e condições abaixo. Isso não valida todas as combinações dos dois medicamentos.
+- 46 cadastros possuem algum esquema REVIEW_PENDING; 204 são INCOMPLETE e 70 HIGH_RISK. A classificação é por combinação; ter um esquema disponível não libera outras apresentações.
+- Há 27 algoritmos pediátricos históricos disponíveis em revisão, condicionados à apresentação, idade, peso e contexto. Nenhum deles é declarado VALIDATED; protocolos integrais de patologias continuam sem cópia.
+- 272 registros das expansões eram gerados por nome; a inferência continua removida. Os 50 registros iniciais preservam seu conteúdo explícito sem ganhar revisão clínica por isso.
+- VALIDATED, REVIEW_PENDING, INCOMPLETE e HIGH_RISK distinguem validação de disponibilidade. Consulta a uma apresentação não habilita automaticamente a cópia.
 
 ## Esquemas documentados e habilitados
 
@@ -213,5 +216,5 @@ A regra antiga descartou Tartarato de metoprolol ao remover o sal e compará-lo 
 
 - Build: node scripts/build.mjs. Exportação: node scripts/export-standalone.mjs. Ambos usam web/index.html.
 - Testes: npm test; npm run test:ui (Chromium, 390 e 1440 px, web e standalone). CI executa ambos e confere que os artefatos estão sincronizados.
-- No ambiente Windows restrito desta execução, a suíte Node foi executada com --test-isolation=none; criação de subprocessos pelo Node recebeu EPERM. Testes interativos foram feitos pelo navegador integrado, com dados sintéticos.
+- A execução inicial no Windows restrito precisou de --test-isolation=none. Posteriormente npm test e npm run test:ui foram executados com autorização para subprocessos; os resultados do bloco 1 constam da entrega e de clinical-states-block1.md. Dados de teste são sintéticos.
 - GitHub Pages publica a pasta web somente após atualização de main. Branch/PR não representa publicação no site. Verificação final do endereço e versão publicada consta da entrega.

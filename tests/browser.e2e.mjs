@@ -31,7 +31,54 @@ try{
   const nav=width<768?'#mobile-nav':'#desktop-nav';await page.locator(`${nav} a[href="#pathologies"]`).click();await page.locator('#pathology-search').fill('pediátrica');assert.equal(await page.locator('[data-copy-pathology="prescription"]').count(),0);assert.match(await page.locator('#pathology-cards').innerText(),/doses adultas/);
   await page.locator('[data-copy-pathology="soap"]').first().click();assert.match(await page.evaluate(()=>navigator.clipboard.readText()),/MODELO EM BRANCO/);
   await page.locator('#pathology-search').fill('tuberculose');assert.match(await page.locator('#pathology-cards').innerText(),/não é segunda linha/);
-  await page.screenshot({path:`test-results/${variant}-${width}-tb.png`,fullPage:true});assert.deepEqual(errors,[]);
+  await page.screenshot({path:`test-results/${variant}-${width}-tb.png`,fullPage:true});
+  await page.locator(`${nav} a[href="#revenues"]`).click();await page.waitForFunction(()=>document.querySelector('#desktop-nav a[aria-current="page"][href="#revenues"]'));
+  await page.locator('#search').fill('diclofenaco');
+  assert.equal(await card.locator('[data-mode="adult"]').getAttribute('aria-pressed'),'true');
+  const adultPreview=await card.locator('.rx').textContent();
+  await page.locator(`${nav} a[href="#dosages"]`).click();await page.waitForFunction(()=>document.querySelector('#desktop-nav a[aria-current="page"][href="#dosages"]'));
+  await page.locator('#search').fill('dipirona');
+  const dip=page.locator('[data-id="dipirona"]');
+  assert.equal(await dip.locator('[data-mode="pediatric"]').getAttribute('aria-pressed'),'true');
+  await dip.locator('[data-presentation="historical-pediatric"]').click();
+  await dip.locator('.age').fill('60');
+  await page.locator('#global-weight').fill('20');
+  await dip.locator('[data-rx-field="quantity"]').fill('1');
+  assert.match(await dip.locator('.dose-result').textContent(),/200.*4 mL/);
+  const pendingPreview=await dip.locator('.rx').textContent();
+  assert.match(pendingPreview,/EM REVISÃO CLÍNICA/);
+  await page.evaluate(()=>navigator.clipboard.writeText('sentinela'));
+  page.once('dialog',dialog=>dialog.dismiss());await dip.locator('.copy').click();
+  assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'sentinela');
+  page.once('dialog',dialog=>{assert.match(dialog.message(),/Conteúdo em revisão clínica/);return dialog.accept();});
+  await dip.locator('.copy').click();
+  assert.equal((await page.evaluate(()=>navigator.clipboard.readText())).replaceAll('\r\n','\n'),pendingPreview);
+  await page.locator('#search').fill('oseltamivir');
+  const oselt=page.locator('[data-id="oseltamivir"]');
+  await oselt.locator('[data-presentation="historical-pediatric"]').click();
+  await oselt.locator('.age').fill('60');await page.locator('#global-weight').fill('25');
+  await oselt.locator('[data-rx-field="quantity"]').fill('1');assert.equal(await oselt.locator('.copy').isDisabled(),true);
+  assert.match(await oselt.locator('.quantity-help').textContent(),/20 cápsulas/);
+  await oselt.locator('[data-rx-field="quantity"]').fill('20');assert.equal(await oselt.locator('.copy').isEnabled(),true);
+  await page.locator(`${nav} a[href="#revenues"]`).click();await page.waitForFunction(()=>document.querySelector('#desktop-nav a[aria-current="page"][href="#revenues"]'));
+  assert.equal(await page.locator('#search').inputValue(),'diclofenaco');
+  assert.equal(await card.locator('[data-mode="adult"]').getAttribute('aria-pressed'),'true');
+  assert.equal(await card.locator('.rx').textContent(),adultPreview);
+  await page.locator('#search').fill('cetoprofeno');
+  const ceto=page.locator('[data-id="cetoprofeno"]');
+  await ceto.locator('[data-presentation="Caps50-8h"]').click();
+  await ceto.locator('[data-rx-field="indication"]').selectOption({index:1});
+  await ceto.locator('[data-rx-field="adultAge"]').fill('35');
+  await ceto.locator('[data-rx-field="days"]').fill('5');
+  await ceto.locator('[data-rx-field="screened"]').check();
+  for(const q of ['16','20','23','25','15.5','0','-1']){
+   await ceto.locator('[data-rx-field="quantity"]').fill(q);assert.equal(await ceto.locator('.copy').isDisabled(),true);
+  }
+  await ceto.locator('[data-rx-field="quantity"]').fill('15');assert.equal(await ceto.locator('.copy').isEnabled(),true);
+  await ceto.locator('[data-rx-field="quantityMode"]').selectOption('pack');
+  assert.equal(await ceto.locator('.copy').isDisabled(),true);
+  await ceto.locator('[data-rx-field="quantity"]').fill('24');assert.equal(await ceto.locator('.copy').isEnabled(),true);
+  assert.deepEqual(errors,[]);
   console.log(`PASS ${variant} ${width}px: busca, bloqueios, seleção, quantidade, clipboard, pediatria, TB, navegação e geometria`);await context.close();
  }
 }finally{await browser?.close();await new Promise(resolve=>server.close(resolve));}

@@ -1,0 +1,2890 @@
+{
+  "baseline": "96adcbcf8a970723e6c99729af6e53ab095d2ee1",
+  "reviewedAt": "2026-09-25",
+  "candidates": [
+    {
+      "version": "expansão anterior",
+      "name": "Benzilpenicilina benzatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Benzilpenicilina procaína + potássica",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Benzilpenicilina potássica cristalina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ampicilina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sulbactam + Ampicilina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cefazolina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cefepima",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ceftazidima",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Meropenem",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ertapenem",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Vancomicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Teicoplanina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Claritromicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Eritromicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Oxacilina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Gentamicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Amicacina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ciprofloxacino",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levofloxacino",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Norfloxacino",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sulfadiazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Pirimetamina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Secnidazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tinidazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Rifampicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Isoniazida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Pirazinamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Etambutol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dapsona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Itraconazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cetoconazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Miconazol creme vaginal",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Anfotericina B",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Mebendazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Benzoato de benzila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nitazoxanida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Praziquantel",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Captopril",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nifedipino",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Verapamil",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Diltiazem",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Clortalidona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Indapamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Espironolactona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Propranolol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Atenolol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Succinato de metoprolol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Carvedilol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Bisoprolol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Metildopa",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Hidralazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Clonidina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nitroprussiato de sódio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nitroglicerina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dinitrato de isossorbida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Mononitrato de isossorbida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Varfarina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Enoxaparina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Heparina sódica",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Rivaroxabana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ácido tranexâmico",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fitomenadiona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sinvastatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Atorvastatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Genfibrozila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ciprofibrato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Amiodarona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Adenosina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Lidocaína sem vasoconstritor",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Propafenona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Digoxina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Deslanosídeo",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Norepinefrina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dobutamina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dopamina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Vasopressina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Milrinona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Atropina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Glibenclamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Gliclazida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dapagliflozina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Insulina NPH",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Insulina Regular",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levotiroxina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tiamazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Propiltiouracil",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Alendronato de sódio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fenoterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Formoterol + Budesonida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dipropionato de beclometasona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Prednisona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Metilprednisolona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dexclorfeniramina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Prometazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Acebrofilina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Acetilcisteína",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sulfato de magnésio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Gliconato de cálcio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Bicarbonato de sódio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Naloxona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Flumazenil",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Carvão ativado",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Pralidoxima",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Pantoprazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Famotidina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Hidróxido de alumínio + magnésio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dimenidrinato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Bromoprida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Escopolamina + Dipirona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sais de Reidratação Oral",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sulfato de zinco",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Saccharomyces boulardii",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Óleo mineral",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Bisacodil",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Glicerina supositório",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Loperamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Mesalazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Naproxeno",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Diclofenaco",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cetoprofeno",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Meloxicam",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Celecoxibe",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Colchicina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Alopurinol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ciclobenzaprina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Baclofeno",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tramadol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Codeína",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Codeína + Paracetamol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Morfina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fentanila",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Metadona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Petidina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cetamina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Etomidato",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Propofol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Rocurônio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Succinilcolina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Diazepam",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Clonazepam",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Midazolam",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Lorazepam",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fenobarbital",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fenitoína",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Carbamazepina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ácido valproico",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Lamotrigina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Gabapentina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Pregabalina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Topiramato",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levetiracetam",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levodopa + Benserazida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Biperideno",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Haloperidol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Decanoato de haloperidol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Clorpromazina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levomepromazina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Risperidona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Quetiapina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Olanzapina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Carbonato de lítio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Amitriptilina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nortriptilina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Clomipramina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Fluoxetina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sertralina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Escitalopram",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Citalopram",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Paroxetina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Venlafaxina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Duloxetina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Bupropiona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Trazodona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ocitocina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Misoprostol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Metilergometrina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Noretisterona + Estradiol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Levonorgestrel",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Etinilestradiol + Levonorgestrel",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Medroxiprogesterona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tansulosina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Doxazosina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Finasterida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tiamina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Complexo B",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Piridoxina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ácido ascórbico",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Sulfato ferroso",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": true,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ácido fólico",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Carbonato de cálcio + Colecalciferol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Eritropoietina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Tobramicina colírio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Ciprofloxacino colírio/otológico",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Timolol colírio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Dexametasona colírio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Nitrato de prata colírio",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "expansão anterior",
+      "name": "Cerumin",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sulfato ferroso",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Midazolam",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fenitoína",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Alteplase",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sertralina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fluoxetina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Escitalopram",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Haloperidol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Colchicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Adrenalina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Levosimendana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Esmolol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Labetalol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tartarato de metoprolol",
+      "status": "duplicate",
+      "presentInFinalCatalog": true,
+      "reason": "Duplicata pela normalização antiga (que também removia sais); verificar formulação antes de consolidar."
+    },
+    {
+      "version": "v6.3",
+      "name": "Alfentanila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Remifentanila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dexmedetomidina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cisatracúrio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sugamadex",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Neostigmina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cloreto de potássio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "N-acetilcisteína",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Apixabana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dabigatrana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Edoxabana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fondaparinux",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Rosuvastatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Pravastatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fenofibrato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ezetimiba",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Metformina XR",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Gliclazida MR",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Glimepirida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Empagliflozina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Liraglutida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Semaglutida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sitagliptina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Vildagliptina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Pioglitazona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina glargina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina detemir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina degludeca",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina lispro",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina asparte",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Insulina glulisina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Salmeterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tiotrópio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fluticasona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Formoterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Budesonida + Formoterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fluticasona + Salmeterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Umeclidínio + Vilanterol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Esomeprazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Lansoprazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Domperidona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Polietilenoglicol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Picosulfato de sódio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Hioscina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Nimesulida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Etoricoxibe",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Desvenlafaxina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Mirtazapina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Zolpidem",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Aripiprazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Clozapina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ziprasidona",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Oxcarbazepina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Lacosamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Pramipexol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Donepezila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Rivastigmina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Memantina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sumatriptana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Rizatriptana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Eletriptana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cefadroxila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cefaclor",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cefotaxima",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ceftarolina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Imipenem + Cilastatina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Aztreonam",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Linezolida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Daptomicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Aztreonam",
+      "status": "duplicate",
+      "presentInFinalCatalog": true,
+      "reason": "Duplicata pela normalização antiga (que também removia sais); verificar formulação antes de consolidar."
+    },
+    {
+      "version": "v6.3",
+      "name": "Azitromicina di-hidratada",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tigeciclina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Polimixina B",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Colistimetato de sódio",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Estreptomicina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Azitromicina suspensão",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Caspofungina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Micafungina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Voriconazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Posaconazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Valaciclovir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ganciclovir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Valganciclovir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tenofovir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Lamivudina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dolutegravir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Entricitabina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Darunavir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ritonavir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Atazanavir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Efavirenz",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Zidovudina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Nevirapina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Entecavir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sofosbuvir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Velpatasvir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Daclatasvir",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Rifapentina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Clofazimina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cloroquina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Primaquina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Arteméter + Lumefantrina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Artesunato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Mefloquina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Benznidazol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Anfotericina B lipossomal",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Anfotericina B desoxicolato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Antimoniato de meglumina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Pentamidina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dietilcarbamazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Metotrexato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Leflunomida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sulfassalazina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Hidroxicloroquina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Azatioprina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Micofenolato de mofetila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tacrolimo",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ciclosporina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sirolimo",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ciclofosfamida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ácido ursodesoxicólico",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sacarato de hidróxido férrico",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Filgrastim",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Desmopressina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Octreotida",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cabergolina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cinacalcete",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sevelâmer",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Calcitriol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Pamidronato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sildenafila",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Bosentana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Piridostigmina",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Imunoglobulina humana",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Riluzol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Colecalciferol",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ferro aminoquelato",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Levonorgestrel intrauterino",
+      "status": "included",
+      "presentInFinalCatalog": true,
+      "reason": "Incluído no catálogo histórico; não significa revisão clínica."
+    },
+    {
+      "version": "v6.3",
+      "name": "Estradiol + Noretisterona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Progesterona micronizada",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dinoprostone",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Carbetocina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Terbutalina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Betametasona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Clotrimazol vaginal",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Terconazol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Secuquinumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Adalimumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Etanercepte",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Infliximabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Rituximabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tocilizumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Abatacepte",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ustequinumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Golimumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Certolizumabe pegol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tofacitinibe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Baricitinibe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Upadacitinibe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Natalizumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Fingolimode",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Glatirâmer",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Interferona beta-1a",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dimetilfumarato",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Teriflunomida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Eculizumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Alfaepoetina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Darbepoetina alfa",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Somatropina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Teriparatida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Denosumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Zoledronato",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Calcitonina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Alfacalcidol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Paricalcitol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Lanthanum carbonate",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ivabradina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Sacubitril + Valsartana",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Empagliflozina + Metformina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Dapagliflozina + Metformina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Valsartana",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Telmisartana",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Olmesartana",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ramipril",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Lisinopril",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Perindopril",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Felodipino",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Isradipino",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Eplerenona",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Amilorida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Acetazolamida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Bumetanida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Torsemida",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Ticagrelor",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Prasugrel",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Cilostazol",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Alteplase",
+      "status": "duplicate",
+      "presentInFinalCatalog": true,
+      "reason": "Duplicata pela normalização antiga (que também removia sais); verificar formulação antes de consolidar."
+    },
+    {
+      "version": "v6.3",
+      "name": "Tenecteplase",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Protamina",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Idarucizumabe",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    },
+    {
+      "version": "v6.3",
+      "name": "Andexanet alfa",
+      "status": "excluded-by-cutoff",
+      "presentInFinalCatalog": false,
+      "reason": "Excluído pelo corte numérico histórico; sem justificativa clínica de seleção."
+    }
+  ]
+}
